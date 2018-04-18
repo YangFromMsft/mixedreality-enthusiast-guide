@@ -110,7 +110,7 @@ You can opt-in to this mode by updating the MixedRealityVRDriver\resources\setti
 **Example 1: Enabling motion reprojection**
  ```
   "driver_Holographic_Experimental" : {
-         "forceHalfRateWithReprojectionMode" : "motionvector",      
+         "motionReprojectionMode" : "motionvector",      
          
         // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
         // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
@@ -123,7 +123,7 @@ You can opt-in to this mode by updating the MixedRealityVRDriver\resources\setti
 **Example 2: Disabling motion reprojection**
 ```
   "driver_Holographic_Experimental" : {
-        // "forceHalfRateWithReprojectionMode" : "motionvector", 
+        // "motionReprojectionMode" : "motionvector", 
         
         // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
         // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
